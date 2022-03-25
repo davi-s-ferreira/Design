@@ -1,0 +1,31 @@
+/* Layout Mobile */
+body {
+    background-color:  #008000;
+}
+h1 {
+    color: #FFF;
+}
+
+/* Aparelhos Pequenos (tablets, 768px e acima) */
+@media (min-width: 768px) {
+    body {
+        background: #FFFF00;
+    }
+    h1 {
+        color: #FFF;
+    }
+}
+
+/* Aparelhos Médios (desktops, 992px e acima) */
+@media (min-width: 992px) {
+    body {
+        background: #0000FF;
+    }
+}
+
+/* Aparelhos Grandes (desktops grandes, 1200px e acima) */
+@media (min-width: 1200px) {
+    body {
+        background: #800080;
+    }
+}
